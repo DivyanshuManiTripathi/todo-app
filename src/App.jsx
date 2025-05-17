@@ -27,7 +27,7 @@ function App() {
  }
 
   return (
-    <div className='min-h-screen bg-gray-100 flex flex-col'>
+    <div className='min-h-screen bg-gray-100 flex flex-col items-center'>
     <h1 className='text-yellow-600 mt-2.5 ml-2.5 font-semibold text-3xl'>To-Do-App</h1>
       <ToDoInput addToDo={addToDo} />
 
